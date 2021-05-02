@@ -1,0 +1,105 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49466
+Successfully changed project path to: /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
+/Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.34 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 21.84 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-02 15:41:11.779 Unity[1866:39030] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-02 15:41:11.779 Unity[1866:39030] Metal devices available: 1
+2021-05-02 15:41:11.779 Unity[1866:39030] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-02 15:41:11.779 Unity[1866:39030] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56866
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003889 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 52.39 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.443 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006957 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.74 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.3 MB.
+System memory in use after: 151.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2176.
+Total: 2.586919 ms (FindLiveObjects: 0.289179 ms CreateObjectMapping: 0.104630 ms MarkObjects: 1.800071 ms  DeleteObjects: 0.390428 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(9ceb394bd73ee4df9b7987f4ccbf8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(9ceb394bd73ee4df9b7987f4ccbf8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c81c7413bd990e988f2173555673ae') in 1.507799 seconds
+  Import took 1.512074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Resources/OVRBuildConfig 2.asset
+  artifactKey: Guid(42a3090f675ea4524adc44c68fab147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRBuildConfig 2.asset using Guid(42a3090f675ea4524adc44c68fab147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae88a0ce0d661217f1034d698c80b9e0') in 0.005654 seconds
+  Import took 0.009536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Resources/OVRBuildConfig.asset
+  artifactKey: Guid(3cf4eee2a07974cb2b9a3960c3a773b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRBuildConfig.asset using Guid(3cf4eee2a07974cb2b9a3960c3a773b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9a1868d8d49248e061ad30ed19abd0') in 0.002955 seconds
+  Import took 0.006951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Materials/PaintingTest.mat
+  artifactKey: Guid(2b6e3b84274ec44d3b95b386ce848446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PaintingTest.mat using Guid(2b6e3b84274ec44d3b95b386ce848446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e927c7958f0cd8b265703a21f1ddbb') in 0.521275 seconds
+  Import took 0.524915 seconds .
+
