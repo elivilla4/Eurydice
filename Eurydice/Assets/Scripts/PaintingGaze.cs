@@ -16,7 +16,7 @@ public class PaintingGaze : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        lookTimer = 0;
     }
 
     // Update is called once per frame
@@ -39,6 +39,7 @@ public class PaintingGaze : MonoBehaviour
                 if(lookTimer >= totalTime)
                     {
                         _hit.transform.gameObject.GetComponent<PaintingScript>().ActivatePainting();
+                        lookTimer = 0; 
                     }
             }
         } else {
@@ -46,19 +47,4 @@ public class PaintingGaze : MonoBehaviour
         }
     }
 
-    // public void GVROn()
-    // {
-    //     lookingAtPainting = true;
-    //     Debug.Log("On");
-
-    // }
-
-    // public void GVRoff()
-    // {
-    //     lookingAtPainting = false;
-    //     lookTimer = 0;
-    //     imgGaze.fillAmount = 0;
-    //     Debug.Log("Off");
-
-    // }
 }

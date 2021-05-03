@@ -16,4 +16,8 @@ public class PaintingScript : MonoBehaviour
     public void ActivatePainting() {
         paintingMaterial.color = Color.green;
     }
+
+    public void DeactivatePainting() {
+        paintingMaterial.color = Color.red;
+    }
 }
