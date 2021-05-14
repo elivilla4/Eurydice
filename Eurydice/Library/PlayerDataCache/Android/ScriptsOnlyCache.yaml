@@ -3,8 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CharacterCameraConstraint
     - CharacterCapsule
+    - DoorScript
     - LocomotionController
     - LocomotionTeleport
+    - ONSPSettings
     - OVRTouchSample.Hand
     - OVRTouchSample.HandPose
     - PaintingGaze
@@ -36,11 +38,15 @@ ScriptsOnlyBuild:
     - OVRScreenFade
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.Editor.dll:
+    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
@@ -70,13 +76,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 84
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -95,63 +101,67 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 1878}
+      Script: {instanceID: 1880}
     - Class: 114
-      Script: {instanceID: 2116}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2156}
+      Script: {instanceID: 2158}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2388}
     - Class: 114
-      Script: {instanceID: 2566}
+      Script: {instanceID: 2570}
     - Class: 114
-      Script: {instanceID: 2670}
+      Script: {instanceID: 2672}
     - Class: 114
-      Script: {instanceID: 2768}
+      Script: {instanceID: 2770}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2794}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 2970}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3098}
+      Script: {instanceID: 3100}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 3204}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3242}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 3586}
+      Script: {instanceID: 3590}
     - Class: 114
-      Script: {instanceID: 3768}
+      Script: {instanceID: 3772}
     - Class: 114
-      Script: {instanceID: 3832}
+      Script: {instanceID: 3836}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 3958}
     - Class: 114
-      Script: {instanceID: 3988}
+      Script: {instanceID: 3994}
     - Class: 114
-      Script: {instanceID: 4000}
+      Script: {instanceID: 4006}
     - Class: 114
-      Script: {instanceID: 4010}
+      Script: {instanceID: 4016}
     - Class: 114
-      Script: {instanceID: 4130}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 4162}
+      Script: {instanceID: 4166}
     - Class: 114
-      Script: {instanceID: 4340}
+      Script: {instanceID: 4344}
     - Class: 114
-      Script: {instanceID: 4730}
+      Script: {instanceID: 4732}
     - Class: 114
-      Script: {instanceID: 4788}
+      Script: {instanceID: 4776}
     - Class: 114
-      Script: {instanceID: 4974}
+      Script: {instanceID: 4790}
+    - Class: 114
+      Script: {instanceID: 4976}
+    - Class: 114
+      Script: {instanceID: 30970}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -163,6 +173,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -701,7 +715,7 @@ ScriptsOnlyBuild:
     className: MediaPlayerImage
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 04e2689518f9bd27415fab9745b4ef5c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PaintingScript
@@ -1815,7 +1829,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: 57f86eeca9a779300ed28641cdd23db8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Underworld.unity
-  playerPath: /Users/evilla/Desktop/CMS.339/Eurydice/TestBuild.apk
+  playerPath: /Users/evilla/Desktop/CMS.339/Eurydice/TestBuildIntro.apk

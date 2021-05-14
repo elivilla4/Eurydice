@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/StylizedHandPaintedDungeon(Free)/Demo/Demo_Scene/Demo_Scene.unity
+    guid: 1c6d75eaa80797041a20dd6a10c1f6d2
+  - enabled: 1
+    path: Assets/Scenes/Underworld.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 09b0160603e9b4c32b3f848a4ee2f5b0, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9ceb394bd73ee4df9b7987f4ccbf8bed, type: 2}

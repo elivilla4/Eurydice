@@ -6,21 +6,29 @@ using UnityEngine.Video;
 public class PaintingScript : MonoBehaviour
 {
     private Material paintingMaterial;
+    public GameObject videoObject;
     public VideoPlayer videoPlayer;
+    private float videoLength;
 
     // Start is called before the first frame update
     void Start()
     {
-        //paintingMaterial = GetComponent<Renderer>().material;
-        //paintingMaterial.color = Color.red;
+        videoObject.SetActive(false);
+        videoLength = (float) videoPlayer.clip.length;
     }
 
     public void ActivatePainting() {
-        //paintingMaterial.color = Color.green;
+        videoObject.SetActive(true);
         videoPlayer.Play();
     }
 
     public void DeactivatePainting() {
-        //paintingMaterial.color = Color.red;
+        videoPlayer.Stop();
+        videoObject.SetActive(false);
+    }
+
+    IEnumerator StopVideo() {
+        yield return new WaitForSeconds(videoLength);
+        DeactivatePainting();
     }
 }
