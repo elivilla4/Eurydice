@@ -1,4 +1,0 @@
-#Sat May 15 13:05:33 EDT 2021
-base.0=/Users/evilla/Desktop/CMS.339/Eurydice/Eurydice/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
