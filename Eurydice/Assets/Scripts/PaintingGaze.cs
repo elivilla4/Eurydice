@@ -11,8 +11,10 @@ public class PaintingGaze : MonoBehaviour
     bool lookingAtPainting;
     float lookTimer;
 
-    public int distanceOfRay = 10;
+    public int distanceOfRay;
+    public LayerMask paintingLayer;
     private RaycastHit _hit;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +32,7 @@ public class PaintingGaze : MonoBehaviour
 
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
 
-        if(Physics.Raycast(ray, out _hit, distanceOfRay)) // raycast collides with an object
+        if(Physics.Raycast(ray, out _hit, distanceOfRay, paintingLayer)) // raycast collides with an object
         {
             if (_hit.transform.CompareTag("Painting")) // collision is with a painting
             {

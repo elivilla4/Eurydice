@@ -12,7 +12,6 @@ permissions and limitations under the License.
 
 using UnityEngine;
 using System.Collections;
-using UnityEngine.XR;
 
 /// <summary>
 /// Sample that allows you to play with various VR settings.
