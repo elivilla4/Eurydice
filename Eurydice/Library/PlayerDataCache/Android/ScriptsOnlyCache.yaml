@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CharacterCameraConstraint
     - CharacterCapsule
+    - ContinuousMovement
     - DoorScript
     - LocomotionController
     - LocomotionTeleport
@@ -157,6 +158,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4808}
     - Class: 114
+      Script: {instanceID: 4938}
+    - Class: 114
       Script: {instanceID: 5004}
     - Class: 115
       Script: {instanceID: 0}
@@ -165,6 +168,8 @@ ScriptsOnlyBuild:
     - Class: 136
       Script: {instanceID: 0}
     - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
