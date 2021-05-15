@@ -3413,9 +3413,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1895159081, guid: 14691c451e07ff94cb94be3f44e72ab7, type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 731483510}
+    - target: {fileID: 1895159081, guid: 14691c451e07ff94cb94be3f44e72ab7, type: 3}
       propertyPath: videoPlayer
       value: 
       objectReference: {fileID: 1835277628}
+    - target: {fileID: 1895159081, guid: 14691c451e07ff94cb94be3f44e72ab7, type: 3}
+      propertyPath: introPainting
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14691c451e07ff94cb94be3f44e72ab7, type: 3}
 --- !u!4 &1895159079 stripped

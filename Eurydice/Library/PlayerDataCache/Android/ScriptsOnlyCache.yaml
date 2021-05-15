@@ -3,11 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CharacterCameraConstraint
     - CharacterCapsule
-    - ContinuousMovement
     - DoorScript
     - LocomotionController
     - LocomotionTeleport
-    - MouseLook
     - ONSPSettings
     - OVRTouchSample.Hand
     - OVRTouchSample.HandPose
@@ -45,8 +43,6 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.Editor.dll:
-    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
@@ -97,73 +93,71 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1630}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 1882}
+      Script: {instanceID: 1888}
     - Class: 114
-      Script: {instanceID: 2122}
+      Script: {instanceID: 2128}
     - Class: 114
-      Script: {instanceID: 2160}
+      Script: {instanceID: 2166}
     - Class: 114
-      Script: {instanceID: 2386}
+      Script: {instanceID: 2392}
     - Class: 114
-      Script: {instanceID: 2568}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2674}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2792}
     - Class: 114
-      Script: {instanceID: 2800}
+      Script: {instanceID: 2806}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 2966}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 3032}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 3192}
+      Script: {instanceID: 3200}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3238}
     - Class: 114
-      Script: {instanceID: 3356}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3386}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 3584}
+      Script: {instanceID: 3592}
     - Class: 114
-      Script: {instanceID: 3772}
+      Script: {instanceID: 3780}
     - Class: 114
-      Script: {instanceID: 3834}
+      Script: {instanceID: 3842}
     - Class: 114
-      Script: {instanceID: 3956}
+      Script: {instanceID: 3964}
     - Class: 114
-      Script: {instanceID: 3990}
+      Script: {instanceID: 3998}
     - Class: 114
-      Script: {instanceID: 4002}
+      Script: {instanceID: 4010}
     - Class: 114
-      Script: {instanceID: 4012}
+      Script: {instanceID: 4020}
     - Class: 114
-      Script: {instanceID: 4132}
-    - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 4140}
     - Class: 114
       Script: {instanceID: 4162}
     - Class: 114
-      Script: {instanceID: 4338}
+      Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 4740}
+      Script: {instanceID: 4346}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 4750}
     - Class: 114
-      Script: {instanceID: 4798}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 4928}
+      Script: {instanceID: 4808}
     - Class: 114
-      Script: {instanceID: 4994}
+      Script: {instanceID: 5004}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -723,7 +717,7 @@ ScriptsOnlyBuild:
     className: MediaPlayerImage
   - hash:
       serializedVersion: 2
-      Hash: 04e2689518f9bd27415fab9745b4ef5c
+      Hash: 1bf9129ff2a5be2f81ba51209b3722e0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PaintingScript
@@ -1858,4 +1852,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Underworld.unity
-  playerPath: /Users/evilla/Desktop/CMS.339/Eurydice/TestBuildIntro.apk
+  playerPath: /Users/evilla/Desktop/CMS.339/CurrentBuild.apk

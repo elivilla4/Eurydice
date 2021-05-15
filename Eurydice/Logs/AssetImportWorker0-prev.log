@@ -12,91 +12,64 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57254
+61172
 Successfully changed project path to: /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
 /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 162.47 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 19.40 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice/Assets
 GfxDevice: creating device client; threaded=0
-2021-05-14 18:34:56.888 Unity[91047:3493768] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-05-14 18:34:56.888 Unity[91047:3493768] Metal devices available: 1
-2021-05-14 18:34:56.888 Unity[91047:3493768] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
-2021-05-14 18:34:56.888 Unity[91047:3493768] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-15 12:47:28.552 Unity[95540:3670892] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-15 12:47:28.552 Unity[95540:3670892] Metal devices available: 1
+2021-05-15 12:47:28.552 Unity[95540:3670892] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-15 12:47:28.553 Unity[95540:3670892] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56047
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001555 seconds.
+Registered in 0.002289 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 31.09 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 53.27 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.489 seconds
+- Completed reload, in  6.859 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001433 seconds.
+Registered in 0.002507 seconds.
 Begin MonoManager ReloadAssembly
-Error: Could not load signature of OvrAvatarTestDriver:GetMalibuControllerPose due to: Could not load file or assembly 'Oculus.VR, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Oculus.VR, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp.dll, this assembly can cause crashes in the runtime
-
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.501 seconds
+- Completed reload, in  1.617 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1219 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.8 MB.
-System memory in use after: 121.8 MB.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Unloading 1763 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.3 MB.
+System memory in use after: 157.0 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1672.
-Total: 3.627980 ms (FindLiveObjects: 0.342138 ms CreateObjectMapping: 0.077673 ms MarkObjects: 3.062936 ms  DeleteObjects: 0.143643 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2192.
+Total: 18.977134 ms (FindLiveObjects: 1.642166 ms CreateObjectMapping: 0.142478 ms MarkObjects: 16.251603 ms  DeleteObjects: 0.939136 ms)
 
 ========================================================================
 Received Import Request.
-  path: Packages/com.unity.xr.oculus
-  artifactKey: Guid(98344296e350cd95c8cc154b88a349e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.oculus using Guid(98344296e350cd95c8cc154b88a349e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc80f529d335bb84387300b3d6f819dc') in 0.004427 seconds
-  Import took 0.007913 seconds .
+  path: Assets/Scripts/PaintingGaze.cs
+  artifactKey: Guid(7bad80faef9e24c7ba60d78bed3c7535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PaintingGaze.cs using Guid(7bad80faef9e24c7ba60d78bed3c7535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2994cb5ab7c5540fbf1ea4fab8cf4544') in 0.800592 seconds
+  Import took 0.804585 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005761 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 71.71 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.846 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.83 ms.
-Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.4 MB.
-System memory in use after: 143.2 MB.
-
-Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 2150.
-Total: 19.683856 ms (FindLiveObjects: 1.621011 ms CreateObjectMapping: 0.169868 ms MarkObjects: 8.030498 ms  DeleteObjects: 9.860668 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
