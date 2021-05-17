@@ -5,28 +5,31 @@ using UnityEngine.Video;
 
 public class PaintingScript : MonoBehaviour
 {
-    private Material paintingMaterial;
     public GameObject videoObject;
     public VideoPlayer videoPlayer;
     public bool introPainting;
     public GameObject door;
 
-    private bool videoPlaying;
+    public Material endMaterial;
+    private Material[] mats;
+
+    private bool videoPlayed;
     private float videoLength;
 
     // Start is called before the first frame update
     void Start()
     {
         videoObject.SetActive(false);
-        videoPlaying = false;
+        videoPlayed = false;
         videoLength = (float) videoPlayer.clip.length;
+        mats = GetComponent<MeshRenderer>().materials;
     }
 
     public void ActivatePainting() {
-        if (!videoPlaying) {
+        if (!videoPlayed) {
             videoObject.SetActive(true);
             videoPlayer.Play();
-            videoPlaying = true;
+            videoPlayed = true;
             StartCoroutine(StopVideo());
         }
     }
@@ -34,7 +37,6 @@ public class PaintingScript : MonoBehaviour
     public void DeactivatePainting() {
         videoPlayer.Stop();
         videoObject.SetActive(false);
-        videoPlaying = false;
         if (introPainting) {
             door.GetComponent<DoorScript>().OpenDoor();
         }
@@ -43,5 +45,7 @@ public class PaintingScript : MonoBehaviour
     IEnumerator StopVideo() {
         yield return new WaitForSeconds(videoLength);
         DeactivatePainting();
+        mats[1] = endMaterial;
+        GetComponent<MeshRenderer>().materials = mats;
     }
 }
