@@ -1,514 +1,171 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 16258 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/adebi/Eurydice/Eurydice
+/Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61518
-Successfully changed project path to: C:/Users/adebi/Eurydice/Eurydice
-C:/Users/adebi/Eurydice/Eurydice
+53311
+Successfully changed project path to: /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
+/Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
 Using Asset Import Pipeline V2.
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 352.75 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.95 ms.
+Refreshing native plugins compatible for Editor in 206.17 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 186.54 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/adebi/Eurydice/Eurydice/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
-    Vendor:   
-    VRAM:     4043 MB
-    Driver:   27.21.14.5671
+2021-05-17 09:21:21.041 Unity[16600:4392539] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-17 09:21:21.041 Unity[16600:4392539] Metal devices available: 1
+2021-05-17 09:21:21.041 Unity[16600:4392539] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-17 09:21:21.042 Unity[16600:4392539] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003593 seconds.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002087 seconds.
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 53.31 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 417.12 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.70 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.197 seconds
+- Completed reload, in 11.365 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002779 seconds.
+Registered in 0.007892 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-[XR] OVRP version 1.60.0
+Refreshing native plugins compatible for Editor in 2.20 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.85 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.904 seconds
+- Completed reload, in  6.447 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
+Unloading 1889 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.1 MB.
+System memory in use after: 169.9 MB.
 
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 1884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.3 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 3.769700 ms (FindLiveObjects: 0.322500 ms CreateObjectMapping: 0.096700 ms MarkObjects: 3.208300 ms  DeleteObjects: 0.140600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/DoorScript.cs
-  artifactKey: Guid(980af596c9e4344c8a7dd5aef4d235b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DoorScript.cs using Guid(980af596c9e4344c8a7dd5aef4d235b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596165f13f9432c75db049c8f6f31b38') in 0.035731 seconds
-  Import took 0.040247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.695266 seconds.
-  path: Assets/Scripts/PlayerCheckpointCollision.cs
-  artifactKey: Guid(d46dba1d684084b4ea8ea8325afa5ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerCheckpointCollision.cs using Guid(d46dba1d684084b4ea8ea8325afa5ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a91ce04a33cd566f8837817dc913723') in 0.009567 seconds
-  Import took 0.013452 seconds .
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 7.350354 ms (FindLiveObjects: 0.552379 ms CreateObjectMapping: 0.108416 ms MarkObjects: 5.904482 ms  DeleteObjects: 0.782934 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004383 seconds.
+Registered in 0.007106 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 12.67 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.27 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
+- Completed reload, in  2.634 seconds
 Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.9 MB.
+System memory in use after: 154.8 MB.
 
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.7 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 2.347200 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.062600 ms MarkObjects: 1.982800 ms  DeleteObjects: 0.048800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004138 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.033 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.7 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2328.
-Total: 2.770200 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.195500 ms MarkObjects: 2.242100 ms  DeleteObjects: 0.035900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002756 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.7 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2332.
-Total: 2.906400 ms (FindLiveObjects: 0.686300 ms CreateObjectMapping: 0.121600 ms MarkObjects: 2.069200 ms  DeleteObjects: 0.027500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002702 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.8 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2336.
-Total: 5.664800 ms (FindLiveObjects: 0.510100 ms CreateObjectMapping: 0.228700 ms MarkObjects: 4.888600 ms  DeleteObjects: 0.035900 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 3.567378 ms (FindLiveObjects: 0.345709 ms CreateObjectMapping: 0.107934 ms MarkObjects: 2.628014 ms  DeleteObjects: 0.484055 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 1952.410335 seconds.
-  path: Assets/Scripts/PlayerCheckpointCollision.cs
-  artifactKey: Guid(d46dba1d684084b4ea8ea8325afa5ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerCheckpointCollision.cs using Guid(d46dba1d684084b4ea8ea8325afa5ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915277fc95d9b5f4030cb93d0e019890') in 0.012726 seconds
-  Import took 0.017975 seconds .
+  path: Assets/Scripts/ButtonScripts/PlayButtonScript 2.cs
+  artifactKey: Guid(79d7a6a8667d4449d8361edfc538e773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/PlayButtonScript 2.cs using Guid(79d7a6a8667d4449d8361edfc538e773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef29f4fbdabcf1cc16c5817ed252fb6a') in 0.511459 seconds
+  Import took 0.516068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.458384 seconds.
+  path: Assets/Scripts/ButtonScripts/LyreButtonsScript 2.cs
+  artifactKey: Guid(f7a450eb46cd34e028bc6a5b9df75920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LyreButtonsScript 2.cs using Guid(f7a450eb46cd34e028bc6a5b9df75920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020e546cd7b7f6deb39712900c2848b8') in 0.002713 seconds
+  Import took 0.007459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044453 seconds.
+  path: Assets/Scripts/ButtonScripts/LyreButtonsScript 2.cs
+  artifactKey: Guid(f7a450eb46cd34e028bc6a5b9df75920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LyreButtonsScript 2.cs using Guid(f7a450eb46cd34e028bc6a5b9df75920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020e546cd7b7f6deb39712900c2848b8') in 0.001890 seconds
+  Import took 0.006301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.385156 seconds.
+  path: Assets/Scripts/ButtonScripts/LetterButtonScript 2.cs
+  artifactKey: Guid(ddc198c11d6424071a1792ff5db36ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LetterButtonScript 2.cs using Guid(ddc198c11d6424071a1792ff5db36ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053c13e23226f02b689438966c5c9935') in 0.002935 seconds
+  Import took 0.007584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.128381 seconds.
+  path: Assets/Scripts/ButtonScripts/ClearButtonScript.cs
+  artifactKey: Guid(4c5b8c19a626e4b56be50ccb8577dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/ClearButtonScript.cs using Guid(4c5b8c19a626e4b56be50ccb8577dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ad5932baac2f4bc20d98b6b6c71f72') in 0.001975 seconds
+  Import took 0.007753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.930318 seconds.
+  path: Assets/Scripts/ButtonScripts
+  artifactKey: Guid(54ced11c34ad248ec850ce95ca821c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts using Guid(54ced11c34ad248ec850ce95ca821c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a92e3c162c97f89b9f5ac2beaa1e77') in 0.001878 seconds
+  Import took 0.011448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.937268 seconds.
+  path: Assets/Scripts/ButtonScripts/LyreButtonsScript.cs
+  artifactKey: Guid(3dcb02212595440e6b0a981f4f94e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LyreButtonsScript.cs using Guid(3dcb02212595440e6b0a981f4f94e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1176f04434975cdd7d9d54d3ea9537') in 0.006994 seconds
+  Import took 0.019516 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002741 seconds.
+Registered in 0.006245 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.29 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.270 seconds
+- Completed reload, in  1.915 seconds
 Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.7 MB.
+System memory in use after: 159.5 MB.
 
-Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.7 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 2.420000 ms (FindLiveObjects: 0.285200 ms CreateObjectMapping: 0.165600 ms MarkObjects: 1.933100 ms  DeleteObjects: 0.034600 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 4.019090 ms (FindLiveObjects: 0.614878 ms CreateObjectMapping: 0.219512 ms MarkObjects: 2.708067 ms  DeleteObjects: 0.474620 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002659 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.8 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 3.500200 ms (FindLiveObjects: 0.305500 ms CreateObjectMapping: 0.184800 ms MarkObjects: 2.982000 ms  DeleteObjects: 0.025800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003637 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
-Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.8 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2347.
-Total: 2.097100 ms (FindLiveObjects: 0.297100 ms CreateObjectMapping: 0.086500 ms MarkObjects: 1.682200 ms  DeleteObjects: 0.030300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003753 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.235 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.7 MB.
-System memory in use after: 90.8 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 3.350900 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.876400 ms  DeleteObjects: 0.047600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002791 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.7 MB.
-System memory in use after: 90.8 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2355.
-Total: 2.494100 ms (FindLiveObjects: 0.293400 ms CreateObjectMapping: 0.169700 ms MarkObjects: 2.002300 ms  DeleteObjects: 0.027000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002842 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.7 MB.
-System memory in use after: 90.8 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2359.
-Total: 2.022400 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.097800 ms MarkObjects: 1.571300 ms  DeleteObjects: 0.023900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 838.766713 seconds.
-  path: Assets/Scripts/OrpheusMovement.cs
-  artifactKey: Guid(1227e99ac1301f540be6ac74c6219294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OrpheusMovement.cs using Guid(1227e99ac1301f540be6ac74c6219294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aec9744b1962a0907b7486cabc288d8') in 0.014484 seconds
-  Import took 0.019342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.914033 seconds.
-  path: Assets/Prefabs/Demo.prefab
-  artifactKey: Guid(7247e5e1ef76e45b186efdf5da099288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Demo.prefab using Guid(7247e5e1ef76e45b186efdf5da099288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13fb0bf9f01024518a2b3feea31359c') in 0.889029 seconds
-  Import took 0.894891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Videos/Eurydice.mp4
-  artifactKey: Guid(c48838271bdb84a3c98cf417274d3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Eurydice.mp4 using Guid(c48838271bdb84a3c98cf417274d3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a808d96fe8cb8cda402a01adcd661f5a') in 0.053473 seconds
-  Import took 0.056920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Videos/Draft.mp4
-  artifactKey: Guid(8910ebf6bd6e54a1cb519c0a097c18b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/Draft.mp4 using Guid(8910ebf6bd6e54a1cb519c0a097c18b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca55ec3ca85b0d22cf17fb03a9316263') in 0.017079 seconds
-  Import took 0.020507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Videos/3 - Edge.mp4
-  artifactKey: Guid(9750aae0d330847d7b0b24a372137d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/3 - Edge.mp4 using Guid(9750aae0d330847d7b0b24a372137d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098be982ffff17ee6f33f00fd1722993') in 0.015804 seconds
-  Import took 0.019767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Videos/2 - Beg.mp4
-  artifactKey: Guid(5d2a2dd05325344da977eaade28d3b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/2 - Beg.mp4 using Guid(5d2a2dd05325344da977eaade28d3b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38941a9ab23710501e53b82a52d642b9') in 0.015278 seconds
-  Import took 0.019853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Videos/1 - Dead.mp4
-  artifactKey: Guid(3626529a11d554cd1b2b99c8a6e5c736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/1 - Dead.mp4 using Guid(3626529a11d554cd1b2b99c8a6e5c736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f781136c0f5ab53b0b14338bc668d3f2') in 0.018360 seconds
-  Import took 0.022364 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002763 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Multiple plugins with the same name 'ovrplugin' (found at 'Assets/Oculus/VR/Plugins/1.57.0/Win64/OVRPlugin.dll' and 'Assets/Oculus/VR/Plugins/1.60.0/Win64/OVRPlugin.dll'). That means one or more plugins are set to be compatible with Editor. Only one plugin at the time can be used by Editor.
-
-Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.9 MB.
-System memory in use after: 105.1 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2370.
-Total: 2.568000 ms (FindLiveObjects: 0.445600 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.009900 ms  DeleteObjects: 0.026900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

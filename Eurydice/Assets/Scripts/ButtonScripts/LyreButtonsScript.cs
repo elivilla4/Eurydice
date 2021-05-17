@@ -26,7 +26,7 @@ public class LyreButtonsScript : MonoBehaviour
     void Update()
     {
         if (deadDone && begDone && edgeDone) {
-            sounds[0].Play();
+            StartCoroutine(EndLevel());
         }
     }
 
@@ -54,5 +54,10 @@ public class LyreButtonsScript : MonoBehaviour
         }
 
         noteString = "";
+    }
+
+    IEnumerator EndLevel() {
+        yield return new WaitForSeconds(5f);
+        sounds[0].Play();
     }
 }
