@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class LyreButtonsScript : MonoBehaviour
 {
+    public GameObject exit;
+    public GameObject door;
+    public GameObject exitWall;
+    public GameObject deadMarker;
+    public GameObject begMarker;
+    public GameObject edgeMarker;
+    public GameObject buttons;
+
+
     private string noteString; 
 
     private bool deadDone;
@@ -39,17 +48,20 @@ public class LyreButtonsScript : MonoBehaviour
     }
 
     public void PlayNotes() {
-        if (noteString == "DEAD") {
+        if (noteString.Equals("DEAD")) {
             deadDone = true;
             sounds[1].Play();
+            deadMarker.SetActive(true);
             // reveal first part of the end
-        } else if (noteString == "BEG") {
+        } else if (noteString.Equals("BEG")) {
             begDone = true;
             sounds[2].Play();
+            begMarker.SetActive(true);
             // reveal second part of the end
-        } else if (noteString == "EDGE") {
+        } else if (noteString.Equals("EDGE")) {
             edgeDone = true;
             sounds[3].Play();
+            edgeMarker.SetActive(true);
             // reveal third part of the end
         }
 
@@ -59,5 +71,14 @@ public class LyreButtonsScript : MonoBehaviour
     IEnumerator EndLevel() {
         yield return new WaitForSeconds(5f);
         sounds[0].Play();
+        exitWall.SetActive(false);
+        exit.SetActive(true);
+        buttons.SetActive(false);
+        StartCoroutine(OpenDoor());
+    }
+
+    IEnumerator OpenDoor() {
+        yield return new WaitForSeconds(2f);
+        door.GetComponent<DoorScript>().OpenDoor();
     }
 }

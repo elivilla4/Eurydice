@@ -9,6 +9,7 @@ public class StringScript : MonoBehaviour
     private bool onBow;
 
     public GameObject lyreStrings;
+    public GameObject buttons;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class StringScript : MonoBehaviour
         anim.Play("StringIdle");
         lyreStrings.SetActive(false);
         gameObject.SetActive(false);
+        buttons.SetActive(false);
     }
 
     public void MoveString() {
@@ -31,5 +33,6 @@ public class StringScript : MonoBehaviour
     public void EndString() {
         gameObject.SetActive(false);
         lyreStrings.SetActive(true);
+        buttons.SetActive(true);
     }
 }

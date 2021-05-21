@@ -1,0 +1,1647 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57373
+Successfully changed project path to: /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
+/Users/evilla/Desktop/CMS.339/Eurydice/Eurydice
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 323.72 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 38.35 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/evilla/Desktop/CMS.339/Eurydice/Eurydice/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-21 14:39:15.674 Unity[44622:5907255] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-21 14:39:15.674 Unity[44622:5907255] Metal devices available: 1
+2021-05-21 14:39:15.674 Unity[44622:5907255] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-05-21 14:39:15.674 Unity[44622:5907255] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56622
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001931 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 330.41 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 17.137 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.79 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.977 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Unloading 1888 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.3 MB.
+System memory in use after: 170.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 3.610811 ms (FindLiveObjects: 0.344483 ms CreateObjectMapping: 0.120925 ms MarkObjects: 2.337601 ms  DeleteObjects: 0.805935 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ButtonScripts/LetterButtonScript.cs
+  artifactKey: Guid(0fdb5d8d96f8b4cdd84236cc9c271c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LetterButtonScript.cs using Guid(0fdb5d8d96f8b4cdd84236cc9c271c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ab03f02730b9752dde8b89108e19b8') in 0.869407 seconds
+  Import took 0.873357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Scripts/ButtonScripts
+  artifactKey: Guid(54ced11c34ad248ec850ce95ca821c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts using Guid(54ced11c34ad248ec850ce95ca821c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a92e3c162c97f89b9f5ac2beaa1e77') in 0.000913 seconds
+  Import took 0.005652 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 4.75 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 3.88 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.304 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 19.20 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.6 MB.
+System memory in use after: 159.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 13.715116 ms (FindLiveObjects: 0.765666 ms CreateObjectMapping: 0.127356 ms MarkObjects: 10.598400 ms  DeleteObjects: 2.221654 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 40.344086 seconds.
+  path: Assets/Scripts/ButtonScripts/PlayButtonScript.cs
+  artifactKey: Guid(adf3eca41731a490fac24fb147b8ffd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/PlayButtonScript.cs using Guid(adf3eca41731a490fac24fb147b8ffd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458d68420db1079ecb845e0b0fd9538e') in 0.026026 seconds
+  Import took 0.037172 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.73 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.10 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.7 MB.
+System memory in use after: 132.5 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 21.332256 ms (FindLiveObjects: 0.666914 ms CreateObjectMapping: 0.078314 ms MarkObjects: 20.062031 ms  DeleteObjects: 0.523414 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 23.69 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.31 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.9 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 24.750297 ms (FindLiveObjects: 0.845937 ms CreateObjectMapping: 0.123737 ms MarkObjects: 23.063385 ms  DeleteObjects: 0.704233 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 19.33 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.78 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 132.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 32.947191 ms (FindLiveObjects: 0.901478 ms CreateObjectMapping: 0.115053 ms MarkObjects: 30.080352 ms  DeleteObjects: 1.848228 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.00 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.15 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.3 MB.
+System memory in use after: 133.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2327.
+Total: 18.665655 ms (FindLiveObjects: 1.045093 ms CreateObjectMapping: 0.169457 ms MarkObjects: 16.956910 ms  DeleteObjects: 0.492417 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3217.605145 seconds.
+  path: Assets/Sounds/BegSound.mp3
+  artifactKey: Guid(00b691bce7f1a400f81c7f5a96e068b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BegSound.mp3 using Guid(00b691bce7f1a400f81c7f5a96e068b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e42a9d030780192bc5747cf4ffc21f') in 2.777372 seconds
+  Import took 2.819873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sounds/KnifeSound.wav
+  artifactKey: Guid(52fed835f588146099497eb0561f8e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/KnifeSound.wav using Guid(52fed835f588146099497eb0561f8e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c58fcbbe66b117b61d8226b940d34d5') in 2.177368 seconds
+  Import took 2.182057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Sounds/WindSound.wav
+  artifactKey: Guid(724b7db3d8d4e4c2a99a0cc55d5de4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/WindSound.wav using Guid(724b7db3d8d4e4c2a99a0cc55d5de4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5300ad4b30498f84f128185bb31ba23') in 0.021112 seconds
+  Import took 0.026763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/Sounds/DeadUnlock.mp3
+  artifactKey: Guid(90fe815d75576450488a428ae9905045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/DeadUnlock.mp3 using Guid(90fe815d75576450488a428ae9905045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1906fb010bec801bacd7e5d59d9ed952') in 0.017723 seconds
+  Import took 0.032932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006985 seconds.
+  path: Assets/Sounds/EndSound.mp3
+  artifactKey: Guid(2c772a0316e614a7a85ee632f96317fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/EndSound.mp3 using Guid(2c772a0316e614a7a85ee632f96317fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555035abb3921347565a098471a0d9f3') in 0.031860 seconds
+  Import took 0.037668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001549 seconds.
+  path: Assets/Sounds/Button.wav
+  artifactKey: Guid(94827eea17ed1493dbc8d21bb02cb4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Button.wav using Guid(94827eea17ed1493dbc8d21bb02cb4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009cdb8dc888d955636eb911e984c1ce') in 0.013456 seconds
+  Import took 0.017491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sounds/EdgeUnlock.mp3
+  artifactKey: Guid(359a75f52631849c48caa02bea8f0af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/EdgeUnlock.mp3 using Guid(359a75f52631849c48caa02bea8f0af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2e519e27129b3add6121439064888a') in 0.024223 seconds
+  Import took 0.033914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sounds/DeadSound.mp3
+  artifactKey: Guid(103fdf4101a9745fa9b5135919e63568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/DeadSound.mp3 using Guid(103fdf4101a9745fa9b5135919e63568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62fba2f93097a3e54fb48ff966f2ea7') in 0.040430 seconds
+  Import took 0.045373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sounds/Wind.wav
+  artifactKey: Guid(fb625496e4dbe4cad8d29d5cb611f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Wind.wav using Guid(fb625496e4dbe4cad8d29d5cb611f6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c97b766b6a40eed8f5fe29c5a41e35') in 0.026777 seconds
+  Import took 0.036715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Sounds/BegUnlock.mp3
+  artifactKey: Guid(ec95a4ab014e549f6ac0fcbe57d694f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BegUnlock.mp3 using Guid(ec95a4ab014e549f6ac0fcbe57d694f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b6a7d7f642b2e6a50625605aa62696') in 0.019735 seconds
+  Import took 0.025386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/Sounds/EdgeSound.mp3
+  artifactKey: Guid(2e1824e3a632a4e2282a9746a3e2bde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/EdgeSound.mp3 using Guid(2e1824e3a632a4e2282a9746a3e2bde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97337681269dc0a85a1b104f955e1de5') in 0.011446 seconds
+  Import took 0.018629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sounds/Ending.mp3
+  artifactKey: Guid(6dfdb2715afec4d36ab773be66005ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Ending.mp3 using Guid(6dfdb2715afec4d36ab773be66005ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8403e1b1593227c93e7331d14a693e0') in 0.032368 seconds
+  Import took 0.039237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sounds/Knife.wav
+  artifactKey: Guid(7c503209b63144b40b634307ea1044c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Knife.wav using Guid(7c503209b63144b40b634307ea1044c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26bb84d4977ca8941ed3dc50a39ae26') in 0.027559 seconds
+  Import took 0.032448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/Sounds/ButtonSound.wav
+  artifactKey: Guid(e5594d37eb5f740bcb0cae38b06416a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/ButtonSound.wav using Guid(e5594d37eb5f740bcb0cae38b06416a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d01b655e4e33ca48fa4ff74ebc4513d') in 0.033035 seconds
+  Import took 0.038262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.967911 seconds.
+  path: Assets/Scripts/BowScript.cs
+  artifactKey: Guid(22c5585d3a62e4c7dbcd4eb136c63dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BowScript.cs using Guid(22c5585d3a62e4c7dbcd4eb136c63dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ec57962920478919ea0996f94353af') in 0.009132 seconds
+  Import took 0.013322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.157539 seconds.
+  path: Assets/Scripts/StringScript.cs
+  artifactKey: Guid(9ab2d47d6f7bf4b939b42280b2ca5d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StringScript.cs using Guid(9ab2d47d6f7bf4b939b42280b2ca5d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86141b954466af639b2c34644befc4f9') in 0.002165 seconds
+  Import took 0.007829 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.45 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.049 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.1 MB.
+System memory in use after: 172.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 2.648853 ms (FindLiveObjects: 0.274594 ms CreateObjectMapping: 0.078057 ms MarkObjects: 1.884825 ms  DeleteObjects: 0.409947 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004448 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.96 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.763 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.3 MB.
+System memory in use after: 173.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 2.818780 ms (FindLiveObjects: 0.410263 ms CreateObjectMapping: 0.087221 ms MarkObjects: 1.910070 ms  DeleteObjects: 0.409725 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 364.438276 seconds.
+  path: Assets/Scripts/ButtonScripts/LyreButtonsScript.cs
+  artifactKey: Guid(3dcb02212595440e6b0a981f4f94e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LyreButtonsScript.cs using Guid(3dcb02212595440e6b0a981f4f94e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1176f04434975cdd7d9d54d3ea9537') in 0.010540 seconds
+  Import took 0.015289 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 20.99 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.88 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.4 MB.
+System memory in use after: 146.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 4.048989 ms (FindLiveObjects: 0.382262 ms CreateObjectMapping: 0.116682 ms MarkObjects: 2.981227 ms  DeleteObjects: 0.567255 ms)
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.56 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.67 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.6 MB.
+System memory in use after: 146.4 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 59.286610 ms (FindLiveObjects: 0.810477 ms CreateObjectMapping: 0.093194 ms MarkObjects: 57.702978 ms  DeleteObjects: 0.678371 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.55 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.429 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.0 MB.
+System memory in use after: 173.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 3.689624 ms (FindLiveObjects: 0.365215 ms CreateObjectMapping: 0.075417 ms MarkObjects: 2.669298 ms  DeleteObjects: 0.577860 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 934.440755 seconds.
+  path: Assets/Scripts/ButtonScripts/PlayButtonScript.cs
+  artifactKey: Guid(adf3eca41731a490fac24fb147b8ffd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/PlayButtonScript.cs using Guid(adf3eca41731a490fac24fb147b8ffd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337d2d4f944308e46eed17331135efad') in 0.040627 seconds
+  Import took 0.045255 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.253 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.2 MB.
+System memory in use after: 174.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 2.558421 ms (FindLiveObjects: 0.316577 ms CreateObjectMapping: 0.117585 ms MarkObjects: 1.733792 ms  DeleteObjects: 0.388658 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 126.942069 seconds.
+  path: Assets/Scripts/ButtonScripts/LyreButtonsScript.cs
+  artifactKey: Guid(3dcb02212595440e6b0a981f4f94e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LyreButtonsScript.cs using Guid(3dcb02212595440e6b0a981f4f94e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b783e2e60a858afb4546ed44739bc1') in 0.004601 seconds
+  Import took 0.009263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.595476 seconds.
+  path: Assets/Scripts/StringScript.cs
+  artifactKey: Guid(9ab2d47d6f7bf4b939b42280b2ca5d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StringScript.cs using Guid(9ab2d47d6f7bf4b939b42280b2ca5d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f46c13fde8e80296df0939477e83bf') in 0.001995 seconds
+  Import took 0.005690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.508457 seconds.
+  path: Assets/Scripts/ButtonScripts/LetterButtonScript.cs
+  artifactKey: Guid(0fdb5d8d96f8b4cdd84236cc9c271c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LetterButtonScript.cs using Guid(0fdb5d8d96f8b4cdd84236cc9c271c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fc78d7a9464e8e7ebcf44f69a0821b') in 0.003265 seconds
+  Import took 0.009948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Scripts/ButtonScripts/LetterButtonScript.cs
+  artifactKey: Guid(0fdb5d8d96f8b4cdd84236cc9c271c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/LetterButtonScript.cs using Guid(0fdb5d8d96f8b4cdd84236cc9c271c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fc78d7a9464e8e7ebcf44f69a0821b') in 0.002339 seconds
+  Import took 0.007142 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.85 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.051 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.4 MB.
+System memory in use after: 174.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2356.
+Total: 8.623396 ms (FindLiveObjects: 0.356867 ms CreateObjectMapping: 0.124604 ms MarkObjects: 7.412197 ms  DeleteObjects: 0.727895 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 125.237583 seconds.
+  path: Assets/Scripts/ButtonScripts/ClearButtonScript.cs
+  artifactKey: Guid(4c5b8c19a626e4b56be50ccb8577dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/ClearButtonScript.cs using Guid(4c5b8c19a626e4b56be50ccb8577dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0878c399f9a7e6870eeac90a0e6dc523') in 0.005855 seconds
+  Import took 0.010225 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.93 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.958 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.12 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 3.47 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.6 MB.
+System memory in use after: 174.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 10.873663 ms (FindLiveObjects: 1.389027 ms CreateObjectMapping: 1.078217 ms MarkObjects: 4.956373 ms  DeleteObjects: 3.445507 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 98.450964 seconds.
+  path: Assets/Scripts/ButtonScripts/ClearButtonScript.cs
+  artifactKey: Guid(4c5b8c19a626e4b56be50ccb8577dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonScripts/ClearButtonScript.cs using Guid(4c5b8c19a626e4b56be50ccb8577dd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c6053f0b4132249dd6ee5d43c4c90c') in 0.014423 seconds
+  Import took 0.025449 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.32 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.7 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 2.603281 ms (FindLiveObjects: 0.275069 ms CreateObjectMapping: 0.106970 ms MarkObjects: 1.773834 ms  DeleteObjects: 0.446071 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.48 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.613 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.76 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 174.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2364.
+Total: 14.230463 ms (FindLiveObjects: 0.910964 ms CreateObjectMapping: 0.183107 ms MarkObjects: 11.036823 ms  DeleteObjects: 2.097197 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1143.025328 seconds.
+  path: Assets/Materials/Beg.mat
+  artifactKey: Guid(48c1aef3fd79e4305a82a93ffb1e5279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Beg.mat using Guid(48c1aef3fd79e4305a82a93ffb1e5279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '04b92c55844c6f56e86401ebd5fd442e') in 3.198161 seconds
+  Import took 3.322653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001571 seconds.
+  path: Assets/Materials/Video1.mat
+  artifactKey: Guid(b874cdc7e2832403c8a2a07fb4dbaac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Video1.mat using Guid(b874cdc7e2832403c8a2a07fb4dbaac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd6b13cc07fd14bdda9c19bcf41af75') in 0.016746 seconds
+  Import took 0.022420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Materials/Video3Image.mat
+  artifactKey: Guid(3bff1cc09d92648f6bb6ca9d0082c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Video3Image.mat using Guid(3bff1cc09d92648f6bb6ca9d0082c674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '613ad88e3f1f65f30ceaefb2349c4dbc') in 0.065411 seconds
+  Import took 0.081927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Materials/Video1Image.mat
+  artifactKey: Guid(482cd162786c5436f97b06a3498de31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Video1Image.mat using Guid(482cd162786c5436f97b06a3498de31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '90fa48e81235fd4a852d375381eb1b26') in 0.128394 seconds
+  Import took 0.137005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Materials/Edge.mat
+  artifactKey: Guid(f6bb7db5ecd9c44689cb98a74e240f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Edge.mat using Guid(f6bb7db5ecd9c44689cb98a74e240f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '98757db1ef3260799a2158216a5aea81') in 0.233393 seconds
+  Import took 0.239175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Materials/Video3.mat
+  artifactKey: Guid(bf446a1e74098473ab914e5027c14b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Video3.mat using Guid(bf446a1e74098473ab914e5027c14b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeed6d80034b8cadcfc41b667ce35563') in 0.013719 seconds
+  Import took 0.021869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Materials/EurydiceImage.mat
+  artifactKey: Guid(39d38b8132ff648219d0fe7db6895ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EurydiceImage.mat using Guid(39d38b8132ff648219d0fe7db6895ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '994c68046bad6c918b4db9006f3b1668') in 0.324456 seconds
+  Import took 0.330398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Materials/IntroVideo.mat
+  artifactKey: Guid(ecef7a21298e647f3b0d5815337effb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IntroVideo.mat using Guid(ecef7a21298e647f3b0d5815337effb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506dd3478635d3ee5e976f50c2e3fea') in 0.016024 seconds
+  Import took 0.022123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001590 seconds.
+  path: Assets/Materials/Orpheus.mat
+  artifactKey: Guid(ba463885d3f439040b59e0687230a60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Orpheus.mat using Guid(ba463885d3f439040b59e0687230a60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dce67e7aadaae58fabf750a1ae7493') in 0.044112 seconds
+  Import took 0.050440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Materials/Video2.mat
+  artifactKey: Guid(3b7ac8ca13d0745e9b103febca077c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Video2.mat using Guid(3b7ac8ca13d0745e9b103febca077c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aa6cf674f54829e447af4039cc20b5') in 0.025584 seconds
+  Import took 0.034440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013066 seconds.
+  path: Assets/Materials/EurydiceVideo.mat
+  artifactKey: Guid(56d4363fbc88443d085a58b55226d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EurydiceVideo.mat using Guid(56d4363fbc88443d085a58b55226d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03679fb6575c5a5b0eacb1928b79c258') in 0.030242 seconds
+  Import took 0.039253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Materials/PaintingTest.mat
+  artifactKey: Guid(2b6e3b84274ec44d3b95b386ce848446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PaintingTest.mat using Guid(2b6e3b84274ec44d3b95b386ce848446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b822cfcdeead56b80500826e93d500') in 0.021645 seconds
+  Import took 0.028734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Materials/Video2Image.mat
+  artifactKey: Guid(74604e35a8ab04bf19fd00ab8f8439be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Video2Image.mat using Guid(74604e35a8ab04bf19fd00ab8f8439be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '96d3ea46ea2d3b31c56c31ebf63e5815') in 0.115027 seconds
+  Import took 0.123826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Materials/Dead.mat
+  artifactKey: Guid(c82088815b4564b9ba492509da58ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Dead.mat using Guid(c82088815b4564b9ba492509da58ec74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c4a548e06b6891d4a01760691beeab66') in 0.308975 seconds
+  Import took 0.318777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Materials/IntroRoom.mat
+  artifactKey: Guid(cc5090eb50796485fb5e32bfd20bacf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IntroRoom.mat using Guid(cc5090eb50796485fb5e32bfd20bacf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ea279d6d2541d69be6761c8c2e4ceb') in 0.038907 seconds
+  Import took 0.053069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.586253 seconds.
+  path: Assets/Classic Picture Frame/Textures/art_d.jpg
+  artifactKey: Guid(790a05c8333895441bf1510332046d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Picture Frame/Textures/art_d.jpg using Guid(790a05c8333895441bf1510332046d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '619ff7155c2fb004c801ee0a4b2d5f71') in 1.484595 seconds
+  Import took 1.492819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Classic Picture Frame/Textures/art_n.jpg
+  artifactKey: Guid(26937a9854129964a83ead8f3948feda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Picture Frame/Textures/art_n.jpg using Guid(26937a9854129964a83ead8f3948feda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: '1b6f8878b03e906792eb50e9be8521d6') in 0.249133 seconds
+  Import took 0.253350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Classic Picture Frame/Textures/picture_n.png
+  artifactKey: Guid(79813cc2e7ad64b8a87f6dd0cd786b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Picture Frame/Textures/picture_n.png using Guid(79813cc2e7ad64b8a87f6dd0cd786b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f99fa43623db429d572abec743f3b4a9') in 1.686052 seconds
+  Import took 1.692717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Classic Picture Frame/Textures/picture_s.tga
+  artifactKey: Guid(fa4d3c86ffc584279abec8994dadc820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Picture Frame/Textures/picture_s.tga using Guid(fa4d3c86ffc584279abec8994dadc820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '985665b5b2e184dbcbaeb202651fc2b7') in 2.190220 seconds
+  Import took 2.193390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_column_1.fbx
+  artifactKey: Guid(2a454462cc1bc47eab5642f1bcf4ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_column_1.fbx using Guid(2a454462cc1bc47eab5642f1bcf4ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5a279dce00fd6ba1c316c8a7c35d36') in 0.742160 seconds
+  Import took 0.751312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_stairs_stone_corner.fbx
+  artifactKey: Guid(27d661bd65a7a4c7b8b90324c3430a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_stairs_stone_corner.fbx using Guid(27d661bd65a7a4c7b8b90324c3430a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99cd3fa42c677fabc3493d5513e459f') in 0.089930 seconds
+  Import took 0.099503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004123 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_roof_1.fbx
+  artifactKey: Guid(1d75a547b4e724375939511ed282113c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_roof_1.fbx using Guid(1d75a547b4e724375939511ed282113c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bb54a9b30d70c1c2cdd50e18f86518') in 0.156473 seconds
+  Import took 0.163262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_tree_2.fbx
+  artifactKey: Guid(fe654bfd67235493e84db277df9c5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_tree_2.fbx using Guid(fe654bfd67235493e84db277df9c5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90cf1fa22156e0292cc5ce5ddce9fd0') in 0.038029 seconds
+  Import took 0.045412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_column_1.fbx
+  artifactKey: Guid(819e9c05580c44490b5bc1ebff5d3f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_column_1.fbx using Guid(819e9c05580c44490b5bc1ebff5d3f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8137eddcfe3f504bfcb262a7b335bc') in 0.062651 seconds
+  Import took 0.071476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001051 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_floor_stone_1.fbx
+  artifactKey: Guid(69eb944f6a0da40f7b2dedf645a16d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_floor_stone_1.fbx using Guid(69eb944f6a0da40f7b2dedf645a16d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fe5e73338b4f68d835c3aa3a5b4f75') in 0.058561 seconds
+  Import took 0.070213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_2_window.fbx
+  artifactKey: Guid(bdae47c1ddf3049358f11421fa3be74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_2_window.fbx using Guid(bdae47c1ddf3049358f11421fa3be74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd773a3ee6d46a141448a6da95d7888') in 0.083378 seconds
+  Import took 0.088555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_roof_support_1_square.fbx
+  artifactKey: Guid(064b6ba9d50ee47918dbd37de665fa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_roof_support_1_square.fbx using Guid(064b6ba9d50ee47918dbd37de665fa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf61ab747c75de0779cf8b43fddab5f') in 0.159927 seconds
+  Import took 0.167597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_stairs_stone.fbx
+  artifactKey: Guid(083921bd162c04e538d96746617658f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_stairs_stone.fbx using Guid(083921bd162c04e538d96746617658f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138645de1a874b4e96e07b28fa27d948') in 0.084033 seconds
+  Import took 0.092090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_roof_support_1.fbx
+  artifactKey: Guid(69a7d92786c3f4e0dbee6da6dc1f947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_roof_support_1.fbx using Guid(69a7d92786c3f4e0dbee6da6dc1f947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d9868be8489a07f7ce4f7a90313690') in 0.052409 seconds
+  Import took 0.057461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_column_2.fbx
+  artifactKey: Guid(7bb1029da8cb8486a961bb80138c7219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_column_2.fbx using Guid(7bb1029da8cb8486a961bb80138c7219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c386923382a16cd9b0ca7ab4e173d23e') in 0.086094 seconds
+  Import took 0.091856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_2.fbx
+  artifactKey: Guid(f1367657d847b445c9c29ab1d32aaf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_2.fbx using Guid(f1367657d847b445c9c29ab1d32aaf45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb6ca79f2527960c17d83ebf6684aae') in 0.064898 seconds
+  Import took 0.071909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_divider_1_corner.fbx
+  artifactKey: Guid(1ce29e0fa80ac4312a9837582ffebb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_divider_1_corner.fbx using Guid(1ce29e0fa80ac4312a9837582ffebb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192e91030d4f2b1f56d05aaf460da7e0') in 0.039890 seconds
+  Import took 0.050821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001596 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_divider_1.fbx
+  artifactKey: Guid(e304c4f9872bd4b259b496c97b54e00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_divider_1.fbx using Guid(e304c4f9872bd4b259b496c97b54e00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9bc6901820a0bb4b41df0570377e9c') in 0.028880 seconds
+  Import took 0.071474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003243 seconds.
+  path: Assets/Classic Picture Frame/Textures/picture_d.png
+  artifactKey: Guid(c51f25fa2811341ddb4004e5421ba422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Picture Frame/Textures/picture_d.png using Guid(c51f25fa2811341ddb4004e5421ba422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '58ca1f61b8bbc0059eb65778328c921a') in 1.075706 seconds
+  Import took 1.085282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_roof_1_square.fbx
+  artifactKey: Guid(1e02a01f810e841ac81258ac38b3ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_roof_1_square.fbx using Guid(1e02a01f810e841ac81258ac38b3ea5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c28affde442ff712969b59ecaa4f25') in 0.056492 seconds
+  Import took 0.064027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_divider_2_corner.fbx
+  artifactKey: Guid(02997355c76e145a0892ff4a314cbb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_divider_2_corner.fbx using Guid(02997355c76e145a0892ff4a314cbb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392edbe4d55a9c91f78cc7d82dfb21c4') in 0.056190 seconds
+  Import took 0.086415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004991 seconds.
+  path: Assets/Classic Picture Frame/Textures/picture_ao.tga
+  artifactKey: Guid(b53431bed9fec4b5a8804eeb00eeaeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Classic Picture Frame/Textures/picture_ao.tga using Guid(b53431bed9fec4b5a8804eeb00eeaeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'be9697887161170bef8bf86c481369bb') in 0.559619 seconds
+  Import took 0.635436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_divider_2.fbx
+  artifactKey: Guid(2d2e1fd5462c74fc88283701d773cbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_divider_2.fbx using Guid(2d2e1fd5462c74fc88283701d773cbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92567a6c4451b871779050bedd2e76d0') in 0.099073 seconds
+  Import took 0.109759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_1_short.fbx
+  artifactKey: Guid(77537921c0b204def9132f23c1cea5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_1_short.fbx using Guid(77537921c0b204def9132f23c1cea5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cdd5404963c5b8c4b897382986b83b') in 0.095317 seconds
+  Import took 0.102847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_2_corner.fbx
+  artifactKey: Guid(c7f57c2010cac4421b7c883e95751d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_2_corner.fbx using Guid(c7f57c2010cac4421b7c883e95751d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c733fc9fb155b069b650a2a70b7417') in 0.031689 seconds
+  Import took 0.037096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/GreekPack1Lite/Models/greek_wall_2_door.fbx
+  artifactKey: Guid(24649b3c37e4a491abf8ef731ffbd5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/greek_wall_2_door.fbx using Guid(24649b3c37e4a491abf8ef731ffbd5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cebdfcc9f1454c708281697ccb5ba7') in 0.057983 seconds
+  Import took 0.064742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/GreekPack1Lite/Textures/Greek_Combined.png
+  artifactKey: Guid(57d42fa8249a84e628d946ee3d5efd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Textures/Greek_Combined.png using Guid(57d42fa8249a84e628d946ee3d5efd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '209203697ee6a5604096699372e41da5') in 0.027189 seconds
+  Import took 0.034356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.412566 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Accent_Blue.mat
+  artifactKey: Guid(14b7c5c31902442cf8da3306a1031635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Accent_Blue.mat using Guid(14b7c5c31902442cf8da3306a1031635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf0657de6effaec6d8df1847463545') in 0.011702 seconds
+  Import took 0.016731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000833 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Combined.mat
+  artifactKey: Guid(8b50f67be3a834a159d88ecc0944f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Combined.mat using Guid(8b50f67be3a834a159d88ecc0944f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da6f3a1c9b1d84636638e0cc04568cd') in 0.010722 seconds
+  Import took 0.015325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Roof_1.mat
+  artifactKey: Guid(375fd9c2084c448c093ec85db14e15dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Roof_1.mat using Guid(375fd9c2084c448c093ec85db14e15dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f949f954ecbeb5ac18c86dd36f951f9e') in 0.016306 seconds
+  Import took 0.020792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000820 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Dirt_1.mat
+  artifactKey: Guid(56b629314517e40929c83b1b37d23e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Dirt_1.mat using Guid(56b629314517e40929c83b1b37d23e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7e821b8b374fcff119c275948ed868') in 0.024775 seconds
+  Import took 0.029523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_2.mat
+  artifactKey: Guid(7c41cd8c830924aa299e46e6eef716bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_2.mat using Guid(7c41cd8c830924aa299e46e6eef716bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf04e6f2423e56b1842edbcd3698c0d') in 0.042384 seconds
+  Import took 0.046573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Parchment.mat
+  artifactKey: Guid(dfa57d59a97024ec6964c7d3d0afbaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Parchment.mat using Guid(dfa57d59a97024ec6964c7d3d0afbaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8497045a64fbe55cfbc27e8e2d79928') in 0.012696 seconds
+  Import took 0.016983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Flower_2.mat
+  artifactKey: Guid(87878a96d53344af1875eec2206275da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Flower_2.mat using Guid(87878a96d53344af1875eec2206275da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bd924f98c238a4792c0621db819657') in 0.014997 seconds
+  Import took 0.018360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Vine_1.mat
+  artifactKey: Guid(6afd25be3eebe47f0bfbc21a6637aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Vine_1.mat using Guid(6afd25be3eebe47f0bfbc21a6637aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72a921d6e6d3569c3e6744936377aa6') in 0.012659 seconds
+  Import took 0.017001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Water.mat
+  artifactKey: Guid(f0e758c4a7b8b41a782a0384069954b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Water.mat using Guid(f0e758c4a7b8b41a782a0384069954b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1693fa0df615e15ab4d5cfb0a42bc33') in 0.060164 seconds
+  Import took 0.063651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Flower_1.mat
+  artifactKey: Guid(caa72d5aff9b84502ad37484407ceca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Flower_1.mat using Guid(caa72d5aff9b84502ad37484407ceca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9d150abe6e20689afddeebf763836a') in 0.013766 seconds
+  Import took 0.017992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Tree_1.mat
+  artifactKey: Guid(847f9c8503e5246caa8d64722a7f945d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Tree_1.mat using Guid(847f9c8503e5246caa8d64722a7f945d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68346257168b888774746574ccc6d8b') in 0.037143 seconds
+  Import took 0.042687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004423 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Wood_1.mat
+  artifactKey: Guid(ac434d30fa0fd41a6a0a4d1ce678be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Wood_1.mat using Guid(ac434d30fa0fd41a6a0a4d1ce678be54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a15b28db149ea27391044b4cfeb6ce7') in 0.032138 seconds
+  Import took 0.043581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002996 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Pedestal.mat
+  artifactKey: Guid(2b2db13c480524bcb8b3aa2562a82d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Pedestal.mat using Guid(2b2db13c480524bcb8b3aa2562a82d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ac8ae48c82565674d12cd0bba8ec0e') in 0.028045 seconds
+  Import took 0.035478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Bronze_1.mat
+  artifactKey: Guid(cb01d9936a28e42caab84a5e9e68ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Bronze_1.mat using Guid(cb01d9936a28e42caab84a5e9e68ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc7e7dc3bd85b0d9d3bfc4e52486e1e') in 0.017954 seconds
+  Import took 0.026958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Accent_Orange.mat
+  artifactKey: Guid(53a9aa258f56c43cb9a8c17e13ed85b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Accent_Orange.mat using Guid(53a9aa258f56c43cb9a8c17e13ed85b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416532b346e6d411b6801eee0c001225') in 0.031486 seconds
+  Import took 0.038331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Vase_2.mat
+  artifactKey: Guid(9bf520b8d7962492ab625159d7ccec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Vase_2.mat using Guid(9bf520b8d7962492ab625159d7ccec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60a9a73fe5a89a86dfc7fe640f95687') in 0.011886 seconds
+  Import took 0.016410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Flower_3.mat
+  artifactKey: Guid(523124601af35487bb57d52f9fe68f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Flower_3.mat using Guid(523124601af35487bb57d52f9fe68f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d9d99bcbf0fb149947dfdec50c75f2') in 0.020141 seconds
+  Import took 0.024198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_6.mat
+  artifactKey: Guid(1132727fdae054c0fa6d57ba46f59636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_6.mat using Guid(1132727fdae054c0fa6d57ba46f59636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8373b87b6c41a9a19bdbf2144521f7b0') in 0.023482 seconds
+  Import took 0.027036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Vase_1.mat
+  artifactKey: Guid(ad416ec4307d74bfc94d2d8be55f0cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Vase_1.mat using Guid(ad416ec4307d74bfc94d2d8be55f0cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1512d8878754c0e6400b5b6945af0ec3') in 0.042712 seconds
+  Import took 0.048099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001182 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Roof_2.mat
+  artifactKey: Guid(a2540eb5d2d934977881a49c82bcb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Roof_2.mat using Guid(a2540eb5d2d934977881a49c82bcb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b7229c34ed789709d8775541df9df7') in 0.027850 seconds
+  Import took 0.036251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000942 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_1.mat
+  artifactKey: Guid(7ed566b1767084d5cbcd1b3b150e3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_1.mat using Guid(7ed566b1767084d5cbcd1b3b150e3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2f95dd16ac4ec3c3c062d92a998eeb') in 0.029437 seconds
+  Import took 0.042943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001553 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_4.mat
+  artifactKey: Guid(35ceeb845bcaf4d399ebff0070a2de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_4.mat using Guid(35ceeb845bcaf4d399ebff0070a2de91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d0ba6d4de4e23b59e1900a87ffe503') in 0.023660 seconds
+  Import took 0.031390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Bush_1.mat
+  artifactKey: Guid(47beed327039b4bc89c7bfab618add20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Bush_1.mat using Guid(47beed327039b4bc89c7bfab618add20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649af7be5f586bc78d6cba9bafc7dd46') in 0.023956 seconds
+  Import took 0.028876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Cloth_White.mat
+  artifactKey: Guid(6f436851cda3044949b9866dafe155c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Cloth_White.mat using Guid(6f436851cda3044949b9866dafe155c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dd3ff13b45170ecad95b06f00826e9') in 0.022509 seconds
+  Import took 0.027123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Bush_2.mat
+  artifactKey: Guid(4e3d41c451bc242488504495ee6658ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Bush_2.mat using Guid(4e3d41c451bc242488504495ee6658ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf706855b6cf5f24ea6dbc184d9ecc66') in 0.055080 seconds
+  Import took 0.060227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_5.mat
+  artifactKey: Guid(257dfd3a2570d46ef994063289de7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_5.mat using Guid(257dfd3a2570d46ef994063289de7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197ae691ae3cc500a45a3ca83460ddf7') in 0.032288 seconds
+  Import took 0.042719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Silver_1.mat
+  artifactKey: Guid(2c47c88d7fcbf4ce3aa8da9f42f86898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Silver_1.mat using Guid(2c47c88d7fcbf4ce3aa8da9f42f86898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d40c6a3c25883125b93d3b2307066a8') in 0.065545 seconds
+  Import took 0.074691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002649 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Bark_1.mat
+  artifactKey: Guid(bf87c698a6d9f4a00a9c23a1a302c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Bark_1.mat using Guid(bf87c698a6d9f4a00a9c23a1a302c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b08be17f24c93e0589f8712704f480d') in 0.030792 seconds
+  Import took 0.047889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Grass_1.mat
+  artifactKey: Guid(e33a6ab228fd84f23b3684a158de11b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Grass_1.mat using Guid(e33a6ab228fd84f23b3684a158de11b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a45cf043b210c16a58170af79fda156') in 0.017583 seconds
+  Import took 0.026705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_3.mat
+  artifactKey: Guid(dd8a00cf6e7fc44d2b98129521fec2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_3.mat using Guid(dd8a00cf6e7fc44d2b98129521fec2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9d6ae80e4fb0c40e0409e4e0abd381') in 0.030310 seconds
+  Import took 0.040284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Cloth_Blue.mat
+  artifactKey: Guid(a6f26a496099548c29adb9c535437a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Cloth_Blue.mat using Guid(a6f26a496099548c29adb9c535437a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f7a61ff478e983df48c4ca90a52539') in 0.020192 seconds
+  Import took 0.025512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Stone_7.mat
+  artifactKey: Guid(601a0eae310ab4cd99ec3bdae1fbd0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Stone_7.mat using Guid(601a0eae310ab4cd99ec3bdae1fbd0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a9abb32150c27ae339e40eabbaaf7e') in 0.031507 seconds
+  Import took 0.041395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001080 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Roof_3.mat
+  artifactKey: Guid(ca59fee446bd942daac49a9162b671fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Roof_3.mat using Guid(ca59fee446bd942daac49a9162b671fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abbfc39680c3cc0f6ff7b7e2e49a33d') in 0.036389 seconds
+  Import took 0.042988 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 20.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.66 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.7 MB.
+System memory in use after: 183.5 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2404.
+Total: 14.406405 ms (FindLiveObjects: 0.449615 ms CreateObjectMapping: 0.112614 ms MarkObjects: 13.205814 ms  DeleteObjects: 0.636483 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.57 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.196 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.6 MB.
+System memory in use after: 209.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 2.487372 ms (FindLiveObjects: 0.334591 ms CreateObjectMapping: 0.095070 ms MarkObjects: 1.623212 ms  DeleteObjects: 0.432727 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 20.39 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.71 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.7 MB.
+System memory in use after: 182.5 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 4.285087 ms (FindLiveObjects: 0.379052 ms CreateObjectMapping: 0.129143 ms MarkObjects: 2.669925 ms  DeleteObjects: 1.105335 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.87 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.367 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.19 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.0 MB.
+System memory in use after: 209.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 9.992905 ms (FindLiveObjects: 0.766777 ms CreateObjectMapping: 0.709717 ms MarkObjects: 5.805585 ms  DeleteObjects: 2.705954 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 17.52 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.1 MB.
+System memory in use after: 182.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 4.417260 ms (FindLiveObjects: 0.272056 ms CreateObjectMapping: 0.081610 ms MarkObjects: 3.572621 ms  DeleteObjects: 0.488409 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.98 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.892 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.81 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.5 MB.
+System memory in use after: 210.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 3.049137 ms (FindLiveObjects: 0.367872 ms CreateObjectMapping: 0.114631 ms MarkObjects: 1.962110 ms  DeleteObjects: 0.602568 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1325.837960 seconds.
+  path: Assets/GreekVases/GreekTemple - Vases (Free)/05_HDRI/Greek_Skybox.mat
+  artifactKey: Guid(6b4823b90e9a52040b4ace33e8d618aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekVases/GreekTemple - Vases (Free)/05_HDRI/Greek_Skybox.mat using Guid(6b4823b90e9a52040b4ace33e8d618aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '65979034bedc58ce7d66a2b204923fd3') in 3.214191 seconds
+  Import took 3.221526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Left+X.png
+  artifactKey: Guid(ffc9df97368f942baa384095f371e16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Left+X.png using Guid(ffc9df97368f942baa384095f371e16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '36d0f15f0a8e268fce1d40eff882fa1e') in 0.374931 seconds
+  Import took 0.379390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02.mat
+  artifactKey: Guid(b709a9919bd4047b58bb05887b4faad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02.mat using Guid(b709a9919bd4047b58bb05887b4faad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6d5de95739e9a2478f244f2d1d963f55') in 3.368935 seconds
+  Import took 3.373606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SkyboxForRealtime.mat
+  artifactKey: Guid(799432b58386306488cfd7a19e7ff4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SkyboxForRealtime.mat using Guid(799432b58386306488cfd7a19e7ff4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282371bcee1bdee7393093170f1cfe9b') in 0.065836 seconds
+  Import took 0.070819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Back-Z.png
+  artifactKey: Guid(c3a31c33995374cb6a46e7a0fa5113cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Back-Z.png using Guid(c3a31c33995374cb6a46e7a0fa5113cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c2b178b599f54e1c3401321a1a5fdf65') in 0.469220 seconds
+  Import took 0.474090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069156 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Front+Z.png
+  artifactKey: Guid(f1a0112e68cc949c6aa890a47c46a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Front+Z.png using Guid(f1a0112e68cc949c6aa890a47c46a035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '220206883f344bfe8edfcc8715468e8c') in 0.517395 seconds
+  Import took 0.521898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Up+Y.png
+  artifactKey: Guid(753464e3eaa1243bda1b06345e597459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Up+Y.png using Guid(753464e3eaa1243bda1b06345e597459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b33f875026b3060736115bc767bb7aa8') in 0.356797 seconds
+  Import took 0.361110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Down-Y.png
+  artifactKey: Guid(af3f54a0947374fd597b7af530d495e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Down-Y.png using Guid(af3f54a0947374fd597b7af530d495e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2ffb98427617e2730fb496088c538f8e') in 0.307133 seconds
+  Import took 0.312195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01Mat.mat
+  artifactKey: Guid(b6121f1ede3dbe848a9c9de2ef369c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01Mat.mat using Guid(b6121f1ede3dbe848a9c9de2ef369c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'efd5ee1bae92f0a078090f137986c989') in 2.288983 seconds
+  Import took 2.293032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox02_openGL.png
+  artifactKey: Guid(fcfa6c2621aaa4d96af20a5c1c855c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox02_openGL.png using Guid(fcfa6c2621aaa4d96af20a5c1c855c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4859e32befbf02941013944236eaf980') in 0.469670 seconds
+  Import took 0.475583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/SkyboxMat.mat
+  artifactKey: Guid(59e9fddc38d83c84689eb3deb601b970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/SkyboxMat.mat using Guid(59e9fddc38d83c84689eb3deb601b970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98007051c6f4e7383de82b5959117fdd') in 0.236707 seconds
+  Import took 0.242740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Down-Y.png
+  artifactKey: Guid(44ba68aec4ce947e182003f5806313cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Down-Y.png using Guid(44ba68aec4ce947e182003f5806313cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2da6cd8a0fc8a157217f20f0d7761402') in 0.300294 seconds
+  Import took 0.306580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Up+Y.png
+  artifactKey: Guid(d1f469760a1324aee8f2fa34ed718d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Up+Y.png using Guid(d1f469760a1324aee8f2fa34ed718d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '72069f4ceb9e4e5b6839aa2cc2c07225') in 0.289734 seconds
+  Import took 0.295019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SkyboxForLightbaking.mat
+  artifactKey: Guid(b95594ffeaf238c46a8d575dcd72705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/SkyboxForLightbaking.mat using Guid(b95594ffeaf238c46a8d575dcd72705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1c2ac6fa39bf06f88af2c67c1e8e89') in 0.015902 seconds
+  Import took 0.022044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Right-X.png
+  artifactKey: Guid(2225d3954773c41dfb5cbe8356988e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Right-X.png using Guid(2225d3954773c41dfb5cbe8356988e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd3f7dba804ac89c8987efb403febaaef') in 0.279056 seconds
+  Import took 0.286920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/GreekVases/GreekTemple - Vases (Free)/05_HDRI/SnowyPeaks_HDRI.tga
+  artifactKey: Guid(509c7a46ff492024894acf7a0f50612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekVases/GreekTemple - Vases (Free)/05_HDRI/SnowyPeaks_HDRI.tga using Guid(509c7a46ff492024894acf7a0f50612c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ab832ca47aaeb46c11e9c211c99a51d6') in 3.128180 seconds
+  Import took 3.133092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01.mat
+  artifactKey: Guid(8314ffe855e0e45b0a2fdbbdfe2010ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01.mat using Guid(8314ffe855e0e45b0a2fdbbdfe2010ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '23b3ffd4246f81199a655db6fd6db5ef') in 2.707421 seconds
+  Import took 2.715692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox01_openGL.png
+  artifactKey: Guid(3d407ceb1a7f549cfabe6e1c5abbaec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/skybox01_openGL.png using Guid(3d407ceb1a7f549cfabe6e1c5abbaec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '65589274dae640659b4e10c7f0b81c5c') in 0.353388 seconds
+  Import took 0.358336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Front+Z.png
+  artifactKey: Guid(27a334ddd1e674f5f91d415e537d39f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Front+Z.png using Guid(27a334ddd1e674f5f91d415e537d39f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '06caf69e5e9c1b57b265aa1713c44a1e') in 0.611660 seconds
+  Import took 0.616639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Left+X.png
+  artifactKey: Guid(2d6e238331f1a403e881deb3adfc097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Left+X.png using Guid(2d6e238331f1a403e881deb3adfc097a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'bc572ea5956ec6435e0bdc9b3a30e656') in 0.432407 seconds
+  Import took 0.438712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Back-Z.png
+  artifactKey: Guid(8b58367729b254961afbbcd8ad1fd092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Back-Z.png using Guid(8b58367729b254961afbbcd8ad1fd092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd2e885d4803db47e09e19d577d1da474') in 0.281412 seconds
+  Import took 0.285125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Right-X.png
+  artifactKey: Guid(1531db7620eb24dbfa45481c43b6dcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_01/Skybox01_Right-X.png using Guid(1531db7620eb24dbfa45481c43b6dcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a8e461cae850f3095fae11076bfdc0b3') in 0.288594 seconds
+  Import took 0.292776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.209102 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes
+  artifactKey: Guid(48face14b3fa84a149bba3852e816bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes using Guid(48face14b3fa84a149bba3852e816bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ba9223ac2c771370f4a2b67aac420c') in 0.001634 seconds
+  Import took 0.007108 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002757 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.27 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.695 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.3 MB.
+System memory in use after: 211.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 3.323639 ms (FindLiveObjects: 0.503851 ms CreateObjectMapping: 0.109969 ms MarkObjects: 2.266662 ms  DeleteObjects: 0.441678 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 321.733555 seconds.
+  path: Assets/Scripts/DoorScript.cs
+  artifactKey: Guid(980af596c9e4344c8a7dd5aef4d235b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DoorScript.cs using Guid(980af596c9e4344c8a7dd5aef4d235b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed50bf1a4600d54f358e0487034c8b2') in 0.045639 seconds
+  Import took 0.050186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 768.341256 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Roof_1.mat
+  artifactKey: Guid(375fd9c2084c448c093ec85db14e15dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Roof_1.mat using Guid(375fd9c2084c448c093ec85db14e15dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7994069572bf5ac24da8d87c8fe550') in 0.416796 seconds
+  Import took 0.584456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/GreekPack1Lite/Models/Materials/Greek_Roof_2.mat
+  artifactKey: Guid(a2540eb5d2d934977881a49c82bcb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreekPack1Lite/Models/Materials/Greek_Roof_2.mat using Guid(a2540eb5d2d934977881a49c82bcb3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6fff3fa731c6605992f6ebf1720370') in 0.024884 seconds
+  Import took 0.034320 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 17.15 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.10 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.0 MB.
+System memory in use after: 184.8 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2426.
+Total: 17.226099 ms (FindLiveObjects: 0.532832 ms CreateObjectMapping: 0.138020 ms MarkObjects: 15.873011 ms  DeleteObjects: 0.680576 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003651 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.858 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.61 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.8 MB.
+System memory in use after: 211.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2430.
+Total: 4.009406 ms (FindLiveObjects: 0.952561 ms CreateObjectMapping: 0.338584 ms MarkObjects: 2.175287 ms  DeleteObjects: 0.540506 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1083.357228 seconds.
+  path: Assets/Sounds/Lina Palera (Lyre 2.0 Project player) - Seikilos Epitaph with the Lyre of Apollo.mp3
+  artifactKey: Guid(6de8ba426c63142eb8a30aaafad6f863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Lina Palera (Lyre 2.0 Project player) - Seikilos Epitaph with the Lyre of Apollo.mp3 using Guid(6de8ba426c63142eb8a30aaafad6f863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9504d8416d60cf053b3bf63bd3a0e306') in 0.448086 seconds
+  Import took 0.633852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.971770 seconds.
+  path: Assets/Sounds/Ending.mp3
+  artifactKey: Guid(6de8ba426c63142eb8a30aaafad6f863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Ending.mp3 using Guid(6de8ba426c63142eb8a30aaafad6f863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952a53be6b3a9a1ec6aa1131b0889395') in 0.075987 seconds
+  Import took 0.083971 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 23.48 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.60 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 185.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2431.
+Total: 36.584256 ms (FindLiveObjects: 1.017407 ms CreateObjectMapping: 0.116027 ms MarkObjects: 34.815668 ms  DeleteObjects: 0.632632 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.95 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.046 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.3 MB.
+System memory in use after: 212.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2435.
+Total: 4.169319 ms (FindLiveObjects: 0.494425 ms CreateObjectMapping: 0.120130 ms MarkObjects: 2.981846 ms  DeleteObjects: 0.571173 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 14.21 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.95 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 185.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2435.
+Total: 13.839728 ms (FindLiveObjects: 0.990545 ms CreateObjectMapping: 0.101272 ms MarkObjects: 12.127370 ms  DeleteObjects: 0.618973 ms)
+
